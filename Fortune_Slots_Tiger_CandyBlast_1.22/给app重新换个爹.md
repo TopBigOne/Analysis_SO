@@ -36,13 +36,14 @@ zipalign -p -f -v 4 signed.apk two_entry_align_signed.apk
 
 ### 启动Activity
 
-* 主界面
+* 启动界面
 
 ```shell
 adb shell am start -n pro.hogiouxm.adcr/.nh0bh6q.UdpkxUfoActivity
 ```
 
 * 游戏界面
+
 ```shell
 adb shell am start -n pro.hogiouxm.adcr/.cg0mhzg.WzqbAtsActivity
 ```
@@ -51,4 +52,15 @@ adb shell am start -n pro.hogiouxm.adcr/.cg0mhzg.WzqbAtsActivity
 
 ```shell
 adb shell am start -n pro.hogiouxm.adcr/.qyt3l53aa9h6w0l0d.FkLxzActivity
+```
+
+* 看看顶部的Activity
+
+```shell
+adb shell dumpsys activity top
+```
+* 看看顶部的Activity
+
+```shell
+adb shell pm clear pro.hogiouxm.adcr
 ```
