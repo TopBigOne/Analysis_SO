@@ -10,6 +10,19 @@ llvm-objdump -t libadcr.so
 ```
 
 * 显示动态的符号表
+
 ```shell
 llvm-objdump -T libadcr.so
 ```
+
+* 显示动态符号
+```shell
+nm -D libadcr.so
+```
+
+* 列出 libadcr.so 的函数
+```shell
+objdump -tT libadcr.so
+```
+
+
