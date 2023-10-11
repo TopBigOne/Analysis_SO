@@ -52,16 +52,24 @@
             android:name="pro.hogiouxm.adcr.cg0mhzg.WzqbAtsActivity"
             android:configChanges="orientation|screenSize"
             android:exported="true">
+            <!--
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
         </activity>
 
         <!-- 主界面 -->
         <activity
             android:name="pro.hogiouxm.adcr.nh0bh6q.UdpkxUfoActivity"
             android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
 

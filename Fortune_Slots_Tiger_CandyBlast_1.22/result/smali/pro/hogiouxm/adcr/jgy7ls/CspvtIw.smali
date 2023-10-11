@@ -364,6 +364,17 @@
 # virtual methods
 .method protected attachBaseContext(Landroid/content/Context;)V
     .locals 6
+    const-string v0, "xxxxxxxxx"
+    const-string v1, "start invoke attachBaseContext()"
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    const-wide/16 v0, 0x3a98
+    invoke-static {v0, v1}, Landroid/os/SystemClock;->sleep(J)V
+
+    const-string v0, "xxxxxxxxx"
+    const-string v1, "end sleep"
+    invoke-static {v0, v1}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
 
     .line 860
     new-instance v0, Ljava/util/ArrayList;
